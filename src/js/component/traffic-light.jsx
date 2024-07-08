@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //create your first component
-const Home = () => {
+const TrafficLight = () => {
 	//create a state for the selected color
 	const [selectedColor, setSelectedColor] = useState("");
 
@@ -75,4 +75,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default TrafficLight;
