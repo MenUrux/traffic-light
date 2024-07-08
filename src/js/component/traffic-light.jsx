@@ -31,6 +31,11 @@ const TrafficLight = () => {
 		lights[random].classList.add("selected");
 	}
 
+	// change the color every 5s w/ interval
+	setInterval(() => {
+		randomLight();
+	}, 5000);
+
 	/* 	function purpleLight() {
 			let trafficlight = document.getElementById("traffic-light");
 			console.log(trafficlight);
